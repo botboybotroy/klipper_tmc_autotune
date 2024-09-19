@@ -49,21 +49,21 @@ The Klipper documentation recommends not using interpolation. However, that is m
 Add the following to your `printer.cfg` (change motor names and remove or add any sections as needed) to enable the autotuning for your TMC drivers and motors and restart Klipper:
 ```ini
 [autotune_tmc stepper_x]
-motor: ldo-42sth48-2004mah
+motor: fysetc-17HS19-2004S-AB
 [autotune_tmc stepper_y]
-motor: ldo-42sth48-2004mah
+motor: fysetc-17HS19-2004S-AB
 
 [autotune_tmc stepper_z]
-motor: ldo-42sth48-2004ac
+motor: fysetc-17HS19-2004S-C
 [autotune_tmc stepper_z1]
-motor: ldo-42sth48-2004ac
+motor: fysetc-17HS19-2004S-C
 [autotune_tmc stepper_z2]
-motor: ldo-42sth48-2004ac
+motor: fysetc-17HS19-2004S-C
 [autotune_tmc stepper_z3]
-motor: ldo-42sth48-2004ac
+motor: fysetc-17HS19-2004S-C
 
 [autotune_tmc extruder]
-motor: ldo-36sth20-1004ahg
+motor: fysetc-G36HSY4405-6D-60
 ```
 
 All the `[autotune_tmc]` sections accept additional parameters to tweak the behavior of the autotune process for each motor:
